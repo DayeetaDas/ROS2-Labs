@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+  <world name="my_world">
+    <!-- Add your robot model here -->
+    <include>
+      <uri>model://your_robot_description</uri>
+    </include>
+
+    <!-- Add obstacles or other elements as needed -->
+    <include>
+      <uri>model://obstacle</uri>
+      <pose>1 2 0 0 0 0</pose>
+    </include>
+  </world>
+</sdf>
